@@ -10,10 +10,30 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+
+
+            Button(action: {}, label: {
+                Text("X")
+            })
+
+            Text("Title")
+
+
+            Text("GRAPH")
+
+
+            // Added group so that VoiceOver will treat this as one element
+            Group {
+                Text("スピークバディで")
+                Text("レベルアップ")
+            }
+            .accessibilityElement(children: .combine)
+
+
+            Button(action: {}, label: {
+                Text("Call to action Button")
+            })
+
         }
         .padding()
     }
