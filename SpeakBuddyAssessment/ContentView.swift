@@ -92,21 +92,6 @@ struct RealContentView: View {
     }
 }
 
-
-extension View {
-    // Function color view as linear gradient
-    // Inspiration: https://sarunw.com/posts/how-to-render-text-with-color-gradient-in-swiftui/
-    public func foregroundLinearGradient(_ linearGradient: LinearGradient) -> some View {
-        self.overlay {
-            linearGradient
-            .mask(
-                self
-            )
-        }
-    }
-}
-
-
 #Preview {
     ContentView()
 }
