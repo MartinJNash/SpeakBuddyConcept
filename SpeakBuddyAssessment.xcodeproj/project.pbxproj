@@ -78,6 +78,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA623DF22B7D407900B26C10 /* Styling */ = {
+			isa = PBXGroup;
+			children = (
+				EA623DEC2B7C277B00B26C10 /* CallToActionButtonStyle.swift */,
+				EA623DEE2B7D368B00B26C10 /* CloseButtonStyle.swift */,
+				EA623DF02B7D3DA800B26C10 /* View+MaskedForegroundLinearGradient.swift */,
+			);
+			path = Styling;
+			sourceTree = "<group>";
+		};
 		EAC6ED3F2B7BFA0B00ABEC8B = {
 			isa = PBXGroup;
 			children = (
@@ -103,9 +113,7 @@
 			children = (
 				EAC6ED4B2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift */,
 				EAC6ED4D2B7BFA0B00ABEC8B /* ContentView.swift */,
-				EA623DEC2B7C277B00B26C10 /* CallToActionButtonStyle.swift */,
-				EA623DEE2B7D368B00B26C10 /* CloseButtonStyle.swift */,
-				EA623DF02B7D3DA800B26C10 /* View+MaskedForegroundLinearGradient.swift */,
+				EA623DF22B7D407900B26C10 /* Styling */,
 				EAC6ED4F2B7BFA0C00ABEC8B /* Assets.xcassets */,
 				EAC6ED512B7BFA0C00ABEC8B /* SpeakBuddyAssessment.entitlements */,
 				EAC6ED522B7BFA0C00ABEC8B /* Preview Content */,
