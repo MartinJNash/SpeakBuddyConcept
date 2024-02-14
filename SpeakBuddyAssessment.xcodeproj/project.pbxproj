@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA623DED2B7C277B00B26C10 /* CallToActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA623DEC2B7C277B00B26C10 /* CallToActionButtonStyle.swift */; };
+		EA623DEF2B7D368B00B26C10 /* CloseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA623DEE2B7D368B00B26C10 /* CloseButtonStyle.swift */; };
 		EAC6ED4C2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6ED4B2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift */; };
 		EAC6ED4E2B7BFA0B00ABEC8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6ED4D2B7BFA0B00ABEC8B /* ContentView.swift */; };
 		EAC6ED502B7BFA0C00ABEC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC6ED4F2B7BFA0C00ABEC8B /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		EA623DEC2B7C277B00B26C10 /* CallToActionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallToActionButtonStyle.swift; sourceTree = "<group>"; };
+		EA623DEE2B7D368B00B26C10 /* CloseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButtonStyle.swift; sourceTree = "<group>"; };
 		EAC6ED482B7BFA0B00ABEC8B /* SpeakBuddyAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakBuddyAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC6ED4B2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssessmentApp.swift; sourceTree = "<group>"; };
 		EAC6ED4D2B7BFA0B00ABEC8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				EAC6ED4B2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift */,
 				EAC6ED4D2B7BFA0B00ABEC8B /* ContentView.swift */,
 				EA623DEC2B7C277B00B26C10 /* CallToActionButtonStyle.swift */,
+				EA623DEE2B7D368B00B26C10 /* CloseButtonStyle.swift */,
 				EAC6ED4F2B7BFA0C00ABEC8B /* Assets.xcassets */,
 				EAC6ED512B7BFA0C00ABEC8B /* SpeakBuddyAssessment.entitlements */,
 				EAC6ED522B7BFA0C00ABEC8B /* Preview Content */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA623DEF2B7D368B00B26C10 /* CloseButtonStyle.swift in Sources */,
 				EAC6ED4E2B7BFA0B00ABEC8B /* ContentView.swift in Sources */,
 				EA623DED2B7C277B00B26C10 /* CallToActionButtonStyle.swift in Sources */,
 				EAC6ED4C2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift in Sources */,
