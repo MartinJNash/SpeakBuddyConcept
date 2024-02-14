@@ -18,13 +18,22 @@ struct CallToActionButtonStyle: ButtonStyle {
 }
 
 #Preview {
-    Button(action: { print("Pressed") }) {
+    let button = Button(action: { print("Pressed") }) {
         Text("プランに登録する")
             .foregroundStyle(.white)
             .font(.title)
             .bold()
             .frame(maxWidth: .infinity)
+        }
+        .padding()
+
+    return Group {
+        button
+            .buttonStyle(CallToActionButtonStyle(backgroundColor: .cyan, borderColor: .orange, borderWidth: 5))
+
+        button
+            .buttonStyle(CallToActionButtonStyle(backgroundColor: .purple, borderColor: .white, borderWidth: 5))
+            .shadow(radius: 5)
+
     }
-    .buttonStyle(CallToActionButtonStyle(backgroundColor: .cyan, borderColor: .orange, borderWidth: 5))
-    .padding()
 }
