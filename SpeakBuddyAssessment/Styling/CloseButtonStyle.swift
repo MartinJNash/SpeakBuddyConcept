@@ -13,7 +13,7 @@ struct CloseButtonStyle: ButtonStyle {
             .bold()
             .foregroundStyle(BasicTheme.shared.textBaseColor)
             .background {
-                Circle()
+                Capsule()
                     .foregroundStyle(.white)
             }
             .opacity(configuration.isPressed ? 0.5 : 1.0)
@@ -29,6 +29,12 @@ struct CloseButtonStyle: ButtonStyle {
             Image(systemName: "xmark")
                 .frame(width: 38, height: 38)
         }
-        .buttonStyle(CloseButtonStyle())
+
+        Button(action: { print("Pressed") }) {
+            Text("Close")
+                .padding()
+        }
+
     }
+    .buttonStyle(CloseButtonStyle())
 }
