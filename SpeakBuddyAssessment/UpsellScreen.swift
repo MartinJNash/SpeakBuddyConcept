@@ -1,10 +1,3 @@
-//
-//  UpsellScreen.swift
-//  SpeakBuddyAssessment
-//
-//  Created by Martin Nash on 2/13/24.
-//
-
 import SwiftUI
 
 struct BasicTheme {

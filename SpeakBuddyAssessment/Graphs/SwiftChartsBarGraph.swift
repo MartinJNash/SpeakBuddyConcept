@@ -1,10 +1,3 @@
-//
-//  SwiftChartsBarGraph.swift
-//  SpeakBuddyAssessment
-//
-//  Created by Martin Nash on 2/14/24.
-//
-
 import SwiftUI
 import Charts
 
