@@ -68,6 +68,7 @@ struct GraduallyAppearingGraph<Bar: View>: View {
 
     @ObservedObject private var viewModel: ViewModel
     let barWidth: CGFloat = 50
+    let space: CGFloat = 26
 
     init(entries: [Entry], @ViewBuilder bar: () -> Bar) {
         self.viewModel = ViewModel(entries: entries)
@@ -76,7 +77,7 @@ struct GraduallyAppearingGraph<Bar: View>: View {
 
     var body: some View {
         VStack {
-            HStack {
+            HStack(spacing: space) {
                 ForEach($viewModel.entries) { entry in
                     PercentHighBar(percent: entry.value) {
                         bar
@@ -85,7 +86,7 @@ struct GraduallyAppearingGraph<Bar: View>: View {
                 }
             }
 
-            HStack(alignment: .top) {
+            HStack(spacing: space) {
                 ForEach(viewModel.entries) { entry in
                     Text(entry.caption)
                         .frame(width: barWidth)
@@ -93,7 +94,6 @@ struct GraduallyAppearingGraph<Bar: View>: View {
                 }
             }
         }
-        .contentShape(Rectangle())
         .onAppear {
             for index in viewModel.entries.indices {
                 print(index)
