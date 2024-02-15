@@ -11,7 +11,7 @@ import SwiftUI
 struct SpeakBuddyAssessmentApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UpsellScreen()
         }
     }
 }

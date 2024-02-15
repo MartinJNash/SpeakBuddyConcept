@@ -13,7 +13,7 @@
 		EA623DF42B7D433C00B26C10 /* CustomBarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA623DF32B7D433C00B26C10 /* CustomBarGraphView.swift */; };
 		EA623DF62B7DF91C00B26C10 /* SwiftChartsBarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA623DF52B7DF91C00B26C10 /* SwiftChartsBarGraph.swift */; };
 		EAC6ED4C2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6ED4B2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift */; };
-		EAC6ED4E2B7BFA0B00ABEC8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6ED4D2B7BFA0B00ABEC8B /* ContentView.swift */; };
+		EAC6ED4E2B7BFA0B00ABEC8B /* UpsellScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6ED4D2B7BFA0B00ABEC8B /* UpsellScreen.swift */; };
 		EAC6ED502B7BFA0C00ABEC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC6ED4F2B7BFA0C00ABEC8B /* Assets.xcassets */; };
 		EAC6ED542B7BFA0C00ABEC8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC6ED532B7BFA0C00ABEC8B /* Preview Assets.xcassets */; };
 		EAC6ED5E2B7BFA0C00ABEC8B /* SpeakBuddyAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6ED5D2B7BFA0C00ABEC8B /* SpeakBuddyAssessmentTests.swift */; };
@@ -46,7 +46,7 @@
 		EA623DF52B7DF91C00B26C10 /* SwiftChartsBarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsBarGraph.swift; sourceTree = "<group>"; };
 		EAC6ED482B7BFA0B00ABEC8B /* SpeakBuddyAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakBuddyAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC6ED4B2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssessmentApp.swift; sourceTree = "<group>"; };
-		EAC6ED4D2B7BFA0B00ABEC8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EAC6ED4D2B7BFA0B00ABEC8B /* UpsellScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpsellScreen.swift; sourceTree = "<group>"; };
 		EAC6ED4F2B7BFA0C00ABEC8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAC6ED512B7BFA0C00ABEC8B /* SpeakBuddyAssessment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SpeakBuddyAssessment.entitlements; sourceTree = "<group>"; };
 		EAC6ED532B7BFA0C00ABEC8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				EAC6ED4B2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift */,
-				EAC6ED4D2B7BFA0B00ABEC8B /* ContentView.swift */,
+				EAC6ED4D2B7BFA0B00ABEC8B /* UpsellScreen.swift */,
 				EA623DF72B7E087600B26C10 /* Graphs */,
 				EA623DF22B7D407900B26C10 /* Styling */,
 				EAC6ED4F2B7BFA0C00ABEC8B /* Assets.xcassets */,
@@ -291,7 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA623DEF2B7D368B00B26C10 /* CloseButtonStyle.swift in Sources */,
-				EAC6ED4E2B7BFA0B00ABEC8B /* ContentView.swift in Sources */,
+				EAC6ED4E2B7BFA0B00ABEC8B /* UpsellScreen.swift in Sources */,
 				EA623DED2B7C277B00B26C10 /* CallToActionButtonStyle.swift in Sources */,
 				EA623DF42B7D433C00B26C10 /* CustomBarGraphView.swift in Sources */,
 				EA623DF12B7D3DA800B26C10 /* View+MaskedForegroundLinearGradient.swift in Sources */,

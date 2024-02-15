@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  UpsellScreen.swift
 //  SpeakBuddyAssessment
 //
 //  Created by Martin Nash on 2/13/24.
@@ -23,7 +23,7 @@ struct BasicTheme {
 
 }
 
-struct ContentView: View {
+struct UpsellScreen: View {
     var body: some View {
         ZStack(content: {
             LinearGradient(colors: [BasicTheme.shared.backgroundPurple, .white], startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -121,5 +121,5 @@ struct RealContentView: View {
 }
 
 #Preview {
-    ContentView()
+    UpsellScreen()
 }
