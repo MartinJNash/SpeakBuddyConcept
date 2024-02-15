@@ -86,8 +86,9 @@ struct RealContentView: View {
                 Text("プランに登録する")
                     .font(.title)
                     .foregroundColor(Color.white)
+                    .frame(maxWidth: 500)
             })
-            .buttonStyle(CallToActionButtonStyle(backgroundColor: .cyan, borderColor: .white, borderWidth: 1))
+            .buttonStyle(CallToActionButtonStyle(backgroundColor: BasicTheme.shared.ctaBlue, borderColor: .white, borderWidth: 1))
             .shadow(radius: 5)
 
         }
