@@ -9,6 +9,9 @@ White color == RGB: 255, 255, 255
 Ignores safe area
 
 
+# Close button
+Size 38x38
+
 # Title
 
 Color: 50, 53, 55
@@ -27,6 +30,10 @@ Top of Protty sits top of highest bar.
 Bars have vertical gradient
 Top: RGB: 88, 192, 255	
 Bottom: RGB: 34, 145, 255	
+
+
+values: 66, 100, 220, 300
+
 
 Labels
 Color: 50, 53, 55
