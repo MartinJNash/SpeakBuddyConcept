@@ -56,16 +56,15 @@ struct RealContentView: View {
                 .multilineTextAlignment(.center)
 
 
-            Spacer()
-            Text("GRAPH")
-            Spacer()
+            Spacer(minLength: 85)
+            graph()
+            Spacer(minLength: 30)
 
             // Added group so that VoiceOver will treat this as one element
             VStack {
                 Text("スピークバディで")
                     .font(.title2)
                     .bold()
-                    .foregroundColor(BasicTheme.shared.textBaseColor)
 
                 Text("レベルアップ")
                     .font(.largeTitle)
@@ -83,7 +82,7 @@ struct RealContentView: View {
             .accessibilityLabel("このアプリでレベルアップ")
 
 
-            Button(action: {}, label: {
+            Button(action: { print("Register") }, label: {
                 Text("プランに登録する")
                     .font(.title)
                     .foregroundColor(Color.white)
@@ -92,6 +91,27 @@ struct RealContentView: View {
             .shadow(radius: 5)
 
         }
+        .foregroundStyle(BasicTheme.shared.textBaseColor)
+    }
+
+    func graph() -> some View {
+        GraduallyAppearingGraph(entries: [
+            .init(percent: 0.2, caption: "現在", active: false),
+            .init(percent: 0.4, caption: "３ヶ月", active: false),
+            .init(percent: 0.7, caption: "1年", active: false),
+            .init(percent: 1.0, caption: "2年", active: false),
+        ], bar: {
+            LinearGradient(
+                colors: [
+                    BasicTheme.shared.textGradientTop,BasicTheme.shared.textGradientBottom],
+                startPoint: .top,
+                endPoint: .bottom
+            )
+            .clipShape(
+                .rect(topLeadingRadius: 3, topTrailingRadius: 3)
+            )
+        })
+        .bold()
     }
 }
 
