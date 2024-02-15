@@ -38,13 +38,16 @@ struct ContentView: View {
 }
 
 struct RealContentView: View {
+    
     var body: some View {
         VStack {
             HStack {
                 Spacer()
-                Button(action: {}, label: {
-                    Text("X")
-                })
+                Button(action: { print("Dismiss") }) {
+                    Image(systemName: "xmark")
+                        .frame(width: 38, height: 38)
+                }
+                .buttonStyle(CloseButtonStyle())
             }
 
             Text("Hello\nSpeakBUDDY")
