@@ -10,6 +10,8 @@
 		EA623DED2B7C277B00B26C10 /* CallToActionButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA623DEC2B7C277B00B26C10 /* CallToActionButtonStyle.swift */; };
 		EA623DEF2B7D368B00B26C10 /* CloseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA623DEE2B7D368B00B26C10 /* CloseButtonStyle.swift */; };
 		EA623DF12B7D3DA800B26C10 /* View+MaskedForegroundLinearGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA623DF02B7D3DA800B26C10 /* View+MaskedForegroundLinearGradient.swift */; };
+		EA623DF42B7D433C00B26C10 /* CustomBarGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA623DF32B7D433C00B26C10 /* CustomBarGraphView.swift */; };
+		EA623DF62B7DF91C00B26C10 /* SwiftChartsBarGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA623DF52B7DF91C00B26C10 /* SwiftChartsBarGraph.swift */; };
 		EAC6ED4C2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6ED4B2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift */; };
 		EAC6ED4E2B7BFA0B00ABEC8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC6ED4D2B7BFA0B00ABEC8B /* ContentView.swift */; };
 		EAC6ED502B7BFA0C00ABEC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAC6ED4F2B7BFA0C00ABEC8B /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 		EA623DEC2B7C277B00B26C10 /* CallToActionButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallToActionButtonStyle.swift; sourceTree = "<group>"; };
 		EA623DEE2B7D368B00B26C10 /* CloseButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButtonStyle.swift; sourceTree = "<group>"; };
 		EA623DF02B7D3DA800B26C10 /* View+MaskedForegroundLinearGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+MaskedForegroundLinearGradient.swift"; sourceTree = "<group>"; };
+		EA623DF32B7D433C00B26C10 /* CustomBarGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBarGraphView.swift; sourceTree = "<group>"; };
+		EA623DF52B7DF91C00B26C10 /* SwiftChartsBarGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftChartsBarGraph.swift; sourceTree = "<group>"; };
 		EAC6ED482B7BFA0B00ABEC8B /* SpeakBuddyAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeakBuddyAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAC6ED4B2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakBuddyAssessmentApp.swift; sourceTree = "<group>"; };
 		EAC6ED4D2B7BFA0B00ABEC8B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -88,6 +92,15 @@
 			path = Styling;
 			sourceTree = "<group>";
 		};
+		EA623DF72B7E087600B26C10 /* Graphs */ = {
+			isa = PBXGroup;
+			children = (
+				EA623DF52B7DF91C00B26C10 /* SwiftChartsBarGraph.swift */,
+				EA623DF32B7D433C00B26C10 /* CustomBarGraphView.swift */,
+			);
+			path = Graphs;
+			sourceTree = "<group>";
+		};
 		EAC6ED3F2B7BFA0B00ABEC8B = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +126,7 @@
 			children = (
 				EAC6ED4B2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift */,
 				EAC6ED4D2B7BFA0B00ABEC8B /* ContentView.swift */,
+				EA623DF72B7E087600B26C10 /* Graphs */,
 				EA623DF22B7D407900B26C10 /* Styling */,
 				EAC6ED4F2B7BFA0C00ABEC8B /* Assets.xcassets */,
 				EAC6ED512B7BFA0C00ABEC8B /* SpeakBuddyAssessment.entitlements */,
@@ -279,7 +293,9 @@
 				EA623DEF2B7D368B00B26C10 /* CloseButtonStyle.swift in Sources */,
 				EAC6ED4E2B7BFA0B00ABEC8B /* ContentView.swift in Sources */,
 				EA623DED2B7C277B00B26C10 /* CallToActionButtonStyle.swift in Sources */,
+				EA623DF42B7D433C00B26C10 /* CustomBarGraphView.swift in Sources */,
 				EA623DF12B7D3DA800B26C10 /* View+MaskedForegroundLinearGradient.swift in Sources */,
+				EA623DF62B7DF91C00B26C10 /* SwiftChartsBarGraph.swift in Sources */,
 				EAC6ED4C2B7BFA0B00ABEC8B /* SpeakBuddyAssessmentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
