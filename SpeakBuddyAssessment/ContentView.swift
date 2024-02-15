@@ -112,6 +112,10 @@ struct RealContentView: View {
                 .rect(topLeadingRadius: 3, topTrailingRadius: 3)
             )
         })
+        .overlay(alignment: .topLeading, content: {
+            Image(ImageResource.protty)
+                .offset(CGSize(width: -40.0, height: -50.0))
+        })
         .bold()
     }
 }
