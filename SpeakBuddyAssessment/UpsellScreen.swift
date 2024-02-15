@@ -66,7 +66,6 @@ struct RealContentView: View {
                     .frame(maxWidth: 500)
             })
             .buttonStyle(CallToActionButtonStyle(backgroundColor: BasicTheme.shared.ctaBlue, borderColor: .white, borderWidth: 1))
-            .shadow(radius: 5)
 
         }
         .foregroundStyle(BasicTheme.shared.textBaseColor)

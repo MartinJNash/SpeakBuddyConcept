@@ -1,5 +1,6 @@
 import SwiftUI
 
+// Makes a button with a background color, border color, and shadow
 struct CallToActionButtonStyle: ButtonStyle {
 
     let backgroundColor: Color
@@ -14,6 +15,7 @@ struct CallToActionButtonStyle: ButtonStyle {
                 Capsule()
                     .stroke(borderColor, lineWidth: borderWidth)
             }
+            .shadow(radius: 5)
     }
 }
 
@@ -33,7 +35,6 @@ struct CallToActionButtonStyle: ButtonStyle {
 
         button
             .buttonStyle(CallToActionButtonStyle(backgroundColor: .purple, borderColor: .white, borderWidth: 5))
-            .shadow(radius: 5)
 
     }
 }

@@ -1,5 +1,6 @@
 import SwiftUI
 
+// Wrapper View that vertically sizes its content to a percentage of its height
 struct PercentHighBar<Content: View>: View {
 
     @Binding var percent: Double
@@ -21,11 +22,13 @@ struct PercentHighBar<Content: View>: View {
     }
 }
 
+/// Displays vertical bars. Each builds in from left to rigth with a growth animation.
+/// User supplies contents to be used as graph bars.
 struct GraduallyAppearingGraph<Bar: View>: View {
-
 
     private var bar: Bar
 
+    ///  Percent height of bars and the contents to display below them
     struct Entry : Identifiable, Equatable {
         var id = UUID()
         let percent: Double
@@ -40,6 +43,7 @@ struct GraduallyAppearingGraph<Bar: View>: View {
         }
     }
 
+    /// Abstract away logic to update data to drive animations
     class ViewModel: ObservableObject {
         
         @Published var entries: [Entry]
