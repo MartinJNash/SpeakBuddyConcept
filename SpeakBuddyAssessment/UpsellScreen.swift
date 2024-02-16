@@ -2,15 +2,13 @@ import SwiftUI
 
 struct UpsellScreen: View {
     var body: some View {
-        ZStack(content: {
-            LinearGradient(colors: [BasicTheme.shared.backgroundPurple, .white], startPoint: .topLeading, endPoint: .bottomTrailing)
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .ignoresSafeArea()
-                .overlay {
-                    RealContentView()
-                        .padding()
-                }
-        })
+        LinearGradient(colors: [BasicTheme.shared.backgroundPurple, .white], startPoint: .topLeading, endPoint: .bottomTrailing)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .ignoresSafeArea()
+            .overlay {
+                RealContentView()
+                    .padding()
+            }
     }
 }
 
